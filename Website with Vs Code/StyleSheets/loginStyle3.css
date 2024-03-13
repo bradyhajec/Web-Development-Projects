@@ -1,0 +1,51 @@
+form {
+    background-color: rgba(255, 255, 255, 0.555);
+    text-align: center;
+    width: 35%;
+    /*margin auto horizontally centers the item within the container its in*/
+    margin: auto;
+    /*padding creates space around the element within the container*/
+    padding: 10px;
+    /*this curves the edges*/
+    border-radius: 10px;
+}
+body {
+    background-image: url("https://wallpapers.com/images/hd/minimalist-forest-1920-x-1080-wallpaper-5pkjsxawbtqao1nz.jpg");
+    /*no repeat makes sure the background does not repreat itself*/
+    background-repeat: no-repeat;
+    /*background size make the image cover the whole page*/
+    background-size: cover;
+    /*fixed keeps the image from moving when scrolling*/
+    background-attachment: fixed;
+}
+.textbox {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.textbox:hover {
+    transition-duration: 0.8s;
+    padding: 15px;
+    background-color: rgb(187, 187, 187);
+}
+.btn {
+    position: relative;
+    border: none;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.btn:hover {
+    transition-duration: 0.8s;
+    background-color: rgb(101, 190, 101);
+    width: 23%;
+}
+.btn:active {
+    transition-duration: 0s;
+    background-color: rgba(0, 105, 0, 0.637);
+    width: 22%;
+}

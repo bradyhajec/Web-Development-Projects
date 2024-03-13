@@ -1,0 +1,54 @@
+.container {
+    background-color: #597a59;
+    padding: 10%;
+    font-family: cursive;
+    color: white;
+}
+.card {
+    background-color: rgb(169, 202, 169);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px rgb(89, 100, 89);
+}
+#pic {
+    border-radius: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px 2px rgb(89, 100, 89);
+}
+.imgLink {
+    height: 35px;
+    width: 35px;
+}
+.imgLink:hover {
+    transition-duration: 0.4s;
+    transform: scale(1.2);
+}
+.link {
+    text-decoration: none;
+    margin: 0 15px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.desc {
+    font-size: large;
+    font-family: cursive;
+}
+.contact {
+    color: rgb(255, 255, 255);
+    background-color: #597a599c;
+    text-decoration: none;
+    padding: 5%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+.contact:hover {
+    transition: 0.4s;
+    box-shadow: 0px 0px 20px white;
+}

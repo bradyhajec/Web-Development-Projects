@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://images.alphacoders.com/133/1330483.png");
+    background-size: cover;
+}
+#title1 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: #ffffff2f;
+    border-radius: 10px;
+    width: 40%;
+    padding: 5%;
+}
+.menuNav {
+    background-color: #ffffff2f;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5%;
+    width: 40%;
+}
+.btn {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5%;
+    width: 20%;
+}
+.btn:hover {
+    transition-duration: 0.8s;
+    padding: 25px 15px 25px 15px;
+    background-color: rgb(197, 197, 197);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}

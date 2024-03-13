@@ -1,0 +1,29 @@
+body {
+    background-color: #1e2759;
+    text-align: center;
+    border: none;
+    margin: 300px 300px;
+    box-shadow: 0px 5px 25px #000000b0;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #090c20;
+    
+}
+#emailColor:link {
+    color: #727379;
+    text-decoration: none;
+}
+#emailColor:hover {
+    color: rgb(4, 7, 78);
+}
+.textbox {
+    background-color: rgba(0, 0, 0, 0.26);
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+footer {
+    font-size: 10px;
+    
+}

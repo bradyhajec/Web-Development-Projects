@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(253, 226, 194);
+    text-align: center;
+    border: 5px double;
+    border-radius: 5px;
+    /*the first number is the top margin
+    and the second number defines the left and right margin for the page*/
+    margin: 150px 250px;
+    /*padding centers the text inside the border*/
+    padding: 50px 50px;
+    /*box model -> content, padding, border, outline, margin */
+    outline: inset 3px grey;
+    outline-offset: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#emailColor:link {
+    color: brown;
+    text-decoration: none;
+}
+#emailColor:hover {
+    color: rgb(248, 0, 0);
+}
+.textbox {
+    background-color: rgba(165, 42, 42, 0.26);
+}

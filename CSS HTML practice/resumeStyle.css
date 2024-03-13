@@ -1,0 +1,43 @@
+
+.container {
+    background-color: tan;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    display: none;
+}
+ 
+#title {
+    margin: 0px;
+}
+.section {
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.info {
+    margin-top: -15px;
+}
+#education {
+    background-color: red;
+}
+#workExp {
+    background-color: green;
+    
+}
+#projects {
+    background-color: blue;
+}
+#skills {
+    background-color: purple;
+}
+.transitionBtn {
+    border: none;
+}
